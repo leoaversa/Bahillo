@@ -260,4 +260,16 @@ body {
     display: none;
   }
 }
+
+@media (max-width: 746px) {
+  .google-maps {
+    width: 400px;
+  }
+}
+
+@media (max-width: 300px) {
+  .google-maps {
+    width: 250px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

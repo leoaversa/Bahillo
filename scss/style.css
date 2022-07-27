@@ -42,12 +42,10 @@ body {
 }
 
 .pedidoswsp {
+  right: 150px;
+  bottom: 50px;
   position: fixed;
   z-index: 1;
-  right: 10px;
-  bottom: 20px;
-  text-align: center;
-  padding: 3px;
 }
 
 .flexproducts h5 {
@@ -270,10 +268,26 @@ body {
   }
 }
 
+@media (max-width: 850px) {
+  .google-maps {
+    width: 300px;
+  }
+}
+
 @media (max-width: 746px) {
   .google-maps {
-    width: 400px;
+    width: 300px;
   }
+}
+
+@media (max-width: 500px) {
+  .google-maps {
+    width: 250px;
+  }
+}
+
+.pedidoswsp {
+  width: 50px;
 }
 
 @media (max-width: 300px) {
